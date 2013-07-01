@@ -1,0 +1,105 @@
+<html xmlns:fb="http://www.facebook.com/2008/fbml" xml:lang="en" lang="en">
+  <head> 
+    <title>Manşet Avı!</title> 
+    <meta charset="utf-8"> 
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/button.css">
+		<link rel="icon" type="image/png" href="/img/favicon.png">
+		<script type="text/javascript" src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.2.min.js"></script> 
+		<script type="text/javascript" src="/js/jquery.jfeed.pack.js" ></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.4/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="/js/utils.js"></script>
+		<script src="http://connect.facebook.net/en_US/all.js"></script>
+		<script type="text/javascript" src="/js/facebook.js"></script>		
+		<script type="text/javascript" src="/js/main.js"></script>    
+	</head>
+	<body>
+	  <div id="fb-root"></div> 	  
+    
+
+	  <div id="panel">
+	    <div id="fb">
+       <fb:like href="http://apps.facebook.com/mansetavi/" width="50"></fb:like><br>
+       
+      </div>		    
+	    <div id="header">
+	      <div style="float:left;margin:10px;"><img width="70px" height="70px" src="/img/paper1.png"></div> 
+	  	  <h2>Manşet Avı!</h2>Günlük Haber Başlıklarını Tahmin Et 
+	    </div>		    		    
+      <hr>
+<!--
+	    <div id="invite">	      
+	      <span class="close"></span>
+	      <fb:serverfbml width="500" height="300">
+          <script type="text/fbml">
+            <fb:request-form 
+                             method="POST"
+                             invite="true"
+                             type="Manşet Avı!"
+                             content="Manşet Avı! oyununa davet edildiniz. <fb:req-choice url='' label='Manşet Avı!' />">
+              <fb:multi-friend-selector showborder="false"
+                                        bypass="cancel"
+                                        cols=3
+                                        actiontext="Aksiyon!"/>
+            </fb:request-form>
+          </script>
+        </fb:serverfbml>
+	     </div>
+-->
+	    <div id="game">
+	      
+	      <button style="float:right;" class="btn3">Yeni Oyun Başlat</button>
+	      <div id="kategori">
+	        <p>
+	          <button id="btn1">Haber Kategorisi</button>
+	          <span id="source-icon"></span> > 
+	          <span id="cat"></span>
+	        </p>
+	      </div>
+	      <div id="catDialog">
+	        <div id="wait"><img src="/img/wait.gif"></div>
+	        <span class="close"></span>
+	        <ul class="directory" style="float:left;"><b><u>Ntvmsnbc.com</u></b><br><br>
+	          <li><span class="category" id="cat1">Genel/Türkiye</span></li>
+	          <li><span class="category" id="cat2">Kültür/Sanat</span></li>
+	          <li><span class="category" id="cat3">Bilim/Teknoloji</span></li>
+	          <li><span class="category" id="cat4">Spor</span></li>
+	        </ul>
+	        <ul class="directory" style="float:left;"><b><u>Milliyet.com.tr</u></b><br><br>
+	          <li><span class="category" id="cat5">Genel/Türkiye</span></li>
+	          <li><span class="category" id="cat6">Dünya</span></li>
+	          <li><span class="category" id="cat7">Yaşam</span></li>
+	          <li><span class="category" id="cat8">Spor</span></li>
+	        </ul>	        
+	      </div>
+	      <div id="paper">
+	        <div id="face"></div>
+	        <div id="board"></div>
+	      </div>
+	      <br>
+	      <div id="monitor"></div>
+	      <div id="console">
+	        <span id="keyboardImage"><img width="35px" height="35px" src="/img/keyboard.png"></span>
+	        <span id="time">
+	          <canvas id="clock" width="50px" height="50px">
+	          </canvas>
+	        </span>	
+	        <span id="lives"></span>	        	        
+	        <div id="used">		          
+	        </div>	        
+	      </div>
+	    </div>		    
+	    <br><hr>		
+	    <div id="footer">
+	      <center>
+	        <b>HTML5!</b><br>
+	        Chrome >= 4 , Firefox >= 3.6 , Safari >= 4 , IE >= 7
+	        <br>
+	        <a href="mailto:cbalci@gmail.com">feedback</a> 
+	        <br><br>
+	      </center>
+	    </div> 			  
+	  </div>
+	  
+	</body> 
+</html> 

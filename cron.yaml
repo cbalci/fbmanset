@@ -1,0 +1,5 @@
+cron:
+- description: recheck rss sources
+  url: /tasks/rsscheck
+  schedule: every 60 minutes
+
